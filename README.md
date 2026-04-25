@@ -122,6 +122,6 @@ See `docs/Requirements.docx` for the full test requirements linked to Azure DevO
 
 Author
 
-- **Name:** [Your Name]
-- **Course:** Software Quality Assurance
-- **Date:** April 2026
+- Name: Cyril Ekokwe
+- Course: Software Quality Assurance
+- Date: April 24 2026
