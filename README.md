@@ -1,23 +1,23 @@
-# GrabDocs Automated Test Suite
+ GrabDocs Automated Test Suite
 
 ![Playwright](https://img.shields.io/badge/Playwright-v1.56-blue?logo=playwright)
 ![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow?logo=javascript)
 ![Status](https://img.shields.io/badge/Tests-21%20cases-green)
 
-## 📋 Project Overview
+ Project Overview
 
 Automated UI test suite for [GrabDocs.com](https://grabdocs.com) built with **Playwright**.  
 Tests cover **3 core features** with **21 total test cases**.
 
-## 🎯 Features Tested
+Features Tested
 
 | Feature | Test IDs | # Tests |
 |---|---|---|
-| **File Upload** | FU-001 → FU-007 | 7 |
-| **Feedback** | FB-001 → FB-007 | 7 |
-| **Messages** | MSG-001 → MSG-007 | 7 |
+| File Upload** | FU-001 → FU-007 | 7 |
+| Feedback** | FB-001 → FB-007 | 7 |
+| Messages** | MSG-001 → MSG-007 | 7 |
 
-## 🛠️ Tech Stack
+Tech Stack
 
 - **Test Framework:** Playwright
 - **Language:** JavaScript (Node.js)
@@ -25,9 +25,9 @@ Tests cover **3 core features** with **21 total test cases**.
 - **Reporting:** HTML Report + JSON output
 - **CI/CD:** Azure DevOps / GitHub Actions compatible
 
-## 🚀 Setup & Run
+Setup & Run
 
-### Prerequisites
+Prerequisites
 ```bash
 node -v   # v18+
 npm -v    # v9+
@@ -69,7 +69,7 @@ npm run test:headed
 npm run test:report
 ```
 
-## 📁 Project Structure
+Project Structure
 
 ```
 grabdocs-test-suite/
@@ -81,7 +81,7 @@ grabdocs-test-suite/
 └── README.md
 ```
 
-## 📊 Test Case Summary
+Test Case Summary
 
 ### Feature 1 — File Upload
 | ID | Test Case | Expected Result |
@@ -94,7 +94,7 @@ grabdocs-test-suite/
 | FU-006 | Progress indicator shown during upload | Progress bar or success visible |
 | FU-007 | Delete an uploaded file | File removed from list |
 
-### Feature 2 — Feedback
+Feature 2 — Feedback
 | ID | Test Case | Expected Result |
 |---|---|---|
 | FB-001 | Navigate to Feedback | Feedback page loads |
@@ -105,7 +105,7 @@ grabdocs-test-suite/
 | FB-006 | Page load performance | Loads in under 5 seconds |
 | FB-007 | Form accessibility (labels) | All inputs have identifiers |
 
-### Feature 3 — Messages
+Feature 3 — Messages
 | ID | Test Case | Expected Result |
 |---|---|---|
 | MSG-001 | Navigate to Messages | Messages page loads |
@@ -116,11 +116,11 @@ grabdocs-test-suite/
 | MSG-006 | Mark message as read | Unread indicator removed |
 | MSG-007 | Delete a message | Message removed from inbox |
 
-## 📝 Requirements Document
+Requirements Document
 
 See `docs/Requirements.docx` for the full test requirements linked to Azure DevOps / JIRA.
 
-## 👤 Author
+Author
 
 - **Name:** [Your Name]
 - **Course:** Software Quality Assurance
