@@ -1,0 +1,16 @@
+{
+  "name": "grabdocs-test-suite",
+  "version": "1.0.0",
+  "description": "Automated UI test suite for GrabDocs.com features: File Upload, Feedback, Messages",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:file-upload": "playwright test --grep 'Feature 1'",
+    "test:feedback": "playwright test --grep 'Feature 2'",
+    "test:messages": "playwright test --grep 'Feature 3'",
+    "test:report": "playwright show-report reports/html-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  }
+}
